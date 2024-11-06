@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require("uuid");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
 
-const JWT_SECRET = "@#48^&&&^32@$asdj657as4_SECRET";
+const JWT_SECRET = "YOUR_SECRET_KEY";
 const app = express();
 
 app.use(
