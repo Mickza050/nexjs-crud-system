@@ -19,10 +19,10 @@ app.use(express.json());
 
 // Database host connection
 const db = mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root",
-  password: "root@desktop",
-  database: "next_crud",
+  host: "localhost",
+  user: "username",
+  password: "password",
+  database: "db_name",
 });
 
 // Database checking status
