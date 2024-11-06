@@ -3,7 +3,7 @@ npm install mysql2
 npm install express
 npm install cors
 npm install uuid
-npm install axios
+npm install axios (Global Install)
 npm install sweetalert2
 npm install jsonwebtoken
 
