@@ -13,5 +13,6 @@ CREATE TABLE users (
   uuid VARCHAR(36) NOT NULL,
   username VARCHAR(255) NOT NULL UNIQUE,
   password VARCHAR(64) NOT NULL,
-  email VARCHAR(255) NOT NULL
+  email VARCHAR(255) NOT NULL,
+  role ENUM('admin', 'user') NOT NULL DEFAULT 'user'
 );
